@@ -9,6 +9,7 @@ $dbData = array(
     "password" => "",
     "dbname" => ""
 );
+//comentario añadiso para el forkin
 $defaultFile = fopen("../user_data.txt", "r");
 
 foreach ($dbData as $index => $value) {
