@@ -1,5 +1,11 @@
 <?php
 
+session_start();
+
+require("../session_check.php");
+
+echo "<h3> Usuario = '$_SESSION[correo]'</h3>";
+
 function checkCreateProduct($name, $price, $imagen, $select)
 {
     if (nameCheck($name) && isNumberCheck($price) && imageCheck($imagen) && selectCheck($select)) {

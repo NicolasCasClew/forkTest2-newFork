@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <?php
 
+
+session_start();
+
+require("../session_check.php");
+
+echo "<h3> Usuario = '$_SESSION[correo]'</h3>";
+
+
+
 include "../models/Product.php";
 $dbData = array(
     "servername" => "",

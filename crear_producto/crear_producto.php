@@ -1,3 +1,10 @@
+<?php
+session_start();
+
+require("../session_check.php");
+
+echo "<h3> Usuario = '$_SESSION[correo]'</h3>";
+?>
 <!DOCTYPE html>
 <form method="post" action="../controllers/createProduct.php" enctype="multipart/form-data">
 

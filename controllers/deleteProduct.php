@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <?php
+
+
+session_start();
+
+require("../session_check.php");
+
+echo "<h3> Usuario = '$_SESSION[correo]'</h3>";
+
 $id = $_POST['ID'];
 //$nombre = $_POST['NOMBRE'];
 //$fileDir = $_POST["FILE"];
@@ -9,7 +17,7 @@ $dbData = array(
     "password" => "",
     "dbname" => ""
 );
-//comentario añadiso para el forkin
+//comentario añadido para el forkin
 $defaultFile = fopen("../user_data.txt", "r");
 
 foreach ($dbData as $index => $value) {

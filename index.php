@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<?php
+session_start();
+
+require("session_check.php");
+
+echo "<h3> Usuario = '$_SESSION[correo]'</h3>";
+?>
 <html lang="en">
 
 <head>
@@ -16,6 +23,8 @@
     </br>
     </br>
     <a href="./views/deleteProduct.php">Eliminar producto</a>
+    </br>
+    <a href="salir.php.php">Cerrar sesion</a>
 </body>
 
 </html>
