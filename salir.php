@@ -1,7 +1,7 @@
-<h1 style="color: green;">Sesion cerrada</h1>
+<h1 style="color: green;">Sesion cerrada con exito</h1>
 
 <?php
-require("session_check.php");
+
 session_start();
 
 
@@ -9,5 +9,5 @@ session_unset();
 session_destroy();
 ?>
 <br>
-<a href="form.php">Login</a>
+<a href="login_form.php">Login</a>
 <a></a>

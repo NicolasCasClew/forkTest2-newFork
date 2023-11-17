@@ -24,7 +24,7 @@ echo "<h3> Usuario = '$_SESSION[correo]'</h3>";
     </br>
     <a href="./views/deleteProduct.php">Eliminar producto</a>
     </br>
-    <a href="salir.php.php">Cerrar sesion</a>
+    <a href="salir.php">Cerrar sesion</a>
 </body>
 
 </html>

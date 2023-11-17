@@ -1,4 +1,4 @@
 localhost
 mitiendaonline
 mitiendaonline
-mitiendaonline
+password_db
